@@ -1,0 +1,396 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="15.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C6B53E5D-5E6D-4E14-B48B-628780B6AB07}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>musicTherapy1</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>musicTherapy1</RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AmitBracesControl, Version=1.0.2694.23674, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\AmitBrascesControl\bin\Debug\AmitBracesControl.dll</HintPath>
+    </Reference>
+    <Reference Include="AmitFrameControl, Version=1.0.2762.31333, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\AmitFrameControl\bin\Debug\AmitFrameControl.dll</HintPath>
+    </Reference>
+    <Reference Include="AmitNoteControl, Version=1.0.2714.11655, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\AmitNoteControl\bin\Debug\AmitNoteControl.dll</HintPath>
+    </Reference>
+    <Reference Include="AmitSingSinusControl">
+      <Name>AmitSingSinusControl</Name>
+      <HintPath>..\AmitSingSinusControl\bin\Debug\AmitSingSinusControl.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalReportForStatistics.cs">
+      <HintPath>obj\Debug\TempPE\CrystalReportForStatistics.cs.dll</HintPath>
+    </Reference>
+    <Reference Include="DShowNET">
+      <Name>DShowNET</Name>
+      <HintPath>..\..\directshownet\DirectShow\DShowNET\bin\Debug\DShowNET.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="WindowsControlLibrary1">
+      <Name>WindowsControlLibrary1</Name>
+      <HintPath>..\AmitOpacControl\AmitOpacControl\bin\Debug\WindowsControlLibrary1.dll</HintPath>
+    </Reference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddAttributeInTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddInstrument.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrameAttributes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrameAttributes.Designer.cs">
+      <DependentUpon>FrameAttributes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrystalReport2.cs">
+      <DependentUpon>CrystalReport2.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="CrystalReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="Finale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Legend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Legend.Designer.cs">
+      <DependentUpon>Legend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SilenceAttributes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SilenceAttributes.Designer.cs">
+      <DependentUpon>SilenceAttributes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddTextDialogBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DeleteInstrument.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DiscAttributes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Document.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EnterNAmeDialogBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InstrumentManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFormDocument.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NumPatiansDialogBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Preferences.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RichText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sessions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SingScreamAttributes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stamCodefile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Statistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistics.Designer.cs">
+      <DependentUpon>Statistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatisticsReportChart.cs" />
+    <Compile Include="StatisticsReportChart.Designer.cs">
+      <DependentUpon>StatisticsReportChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VideoDirectShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="AddAttributeInTime.resx">
+      <DependentUpon>AddAttributeInTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddInstrument.resx">
+      <DependentUpon>AddInstrument.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrameAttributes.resx">
+      <DependentUpon>FrameAttributes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finale.resx">
+      <DependentUpon>Finale.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Legend.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Legend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SilenceAttributes.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SilenceAttributes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTextDialogBox.resx">
+      <DependentUpon>AddTextDialogBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteInstrument.resx">
+      <DependentUpon>DeleteInstrument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DiscAttributes.resx">
+      <DependentUpon>DiscAttributes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnterNAmeDialogBox.resx">
+      <DependentUpon>EnterNAmeDialogBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InstrumentManager.resx">
+      <DependentUpon>InstrumentManager.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NumPatiansDialogBox.resx">
+      <DependentUpon>NumPatiansDialogBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preferences.resx">
+      <DependentUpon>Preferences.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RichText.resx">
+      <DependentUpon>RichText.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sessions.resx">
+      <DependentUpon>Sessions.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SingScreamAttributes.resx">
+      <DependentUpon>SingScreamAttributes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistics.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Statistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatisticsReportChart.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StatisticsReportChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VideoDirectShow.resx">
+      <DependentUpon>VideoDirectShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="AddText3.ico" />
+    <Content Include="App.ico" />
+    <Content Include="RemoveText2.ico" />
+    <None Include="Resources\דיסק.bmp" />
+    <None Include="Resources\סוף דיסק.bmp" />
+    <None Include="Resources\חץ.bmp" />
+    <None Include="Resources\דיבור.bmp" />
+    <None Include="Resources\טקסט.bmp" />
+    <None Include="Resources\play_big_right.ico" />
+    <None Include="Resources\play_big_down.ico" />
+    <None Include="Resources\play_big_down2.ico" />
+    <None Include="Resources\play_big_left.ico" />
+    <None Include="Resources\instrument put down.bmp" />
+    <None Include="Resources\disc.bmp" />
+    <None Include="Resources\frame1.bmp" />
+    <None Include="Resources\frame2.bmp" />
+    <Content Include="Resources\play.ico" />
+    <None Include="Resources\playing on instrumet1.bmp" />
+    <Content Include="Resources\play_big_right1.ico" />
+    <None Include="Resources\silence.bmp" />
+    <None Include="Resources\silence2.bmp" />
+    <None Include="Resources\talking1.bmp" />
+    <None Include="Resources\Shekef2.bmp" />
+    <Content Include="Resources\עצמה0.bmp" />
+    <Content Include="Resources\עצמה1.bmp" />
+    <Content Include="Resources\עצמה2.bmp" />
+    <Content Include="Resources\עצמה3.bmp" />
+    <Content Include="Resources\עצמה4.bmp" />
+    <Content Include="Resources\עצמה5.bmp" />
+    <Content Include="Resources\עצמה6.bmp" />
+    <None Include="Resources\תחילת כלי.bmp" />
+    <None Include="Resources\שקף.bmp" />
+    <None Include="Resources\שתק.bmp" />
+    <None Include="Resources\סוף כלי2.bmp" />
+    <None Include="Resources\שירה2.bmp" />
+    <None Include="Resources\צעקה.bmp" />
+    <None Include="Resources\שירה.bmp" />
+    <None Include="Resources\סוף כלי.bmp" />
+    <None Include="InstrumentCursor.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
