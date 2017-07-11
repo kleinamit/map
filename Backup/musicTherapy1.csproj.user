@@ -1,0 +1,48 @@
+<VisualStudioProject>
+    <CSHARP>
+        <Build>
+            <Settings ReferencePath = "D:\Documents and Settings\Loki\My Documents\Visual Studio Projects\directshownet\DirectShow\DShowNET\bin\Debug\;D:\Documents and Settings\Loki\My Documents\Visual Studio Projects\directshownet\DirectShow\PlayWndNET\bin\Debug\;D:\Documents and Settings\Loki\My Documents\Visual Studio Projects\AmitOpacControl\AmitOpacControl\bin\Debug\;d:\documents and settings\loki\my documents\visual studio projects\amitopaccontrol\bin\debug\;D:\Documents and Settings\AMKLEIN\My Documents\Visual Studio Projects\AmitOpacControl\AmitOpacControl\bin\Debug\;D:\Documents and Settings\Loki\My Documents\Visual Studio Projects\AmitSingSinusControl\bin\Debug\;D:\Documents and Settings\amklein\My Documents\Visual Studio Projects\AmitSingSinusControl\bin\Debug\;D:\Documents and Settings\amklein\My Documents\Visual Studio Projects\musicTherapy1.6.3\bin\Debug\" >
+                <Config
+                    Name = "Debug"
+                    EnableASPDebugging = "false"
+                    EnableASPXDebugging = "false"
+                    EnableUnmanagedDebugging = "false"
+                    EnableSQLServerDebugging = "false"
+                    RemoteDebugEnabled = "false"
+                    RemoteDebugMachine = ""
+                    StartAction = "Project"
+                    StartArguments = ""
+                    StartPage = ""
+                    StartProgram = ""
+                    StartURL = ""
+                    StartWorkingDirectory = ""
+                    StartWithIE = "true"
+                />
+                <Config
+                    Name = "Release"
+                    EnableASPDebugging = "false"
+                    EnableASPXDebugging = "false"
+                    EnableUnmanagedDebugging = "false"
+                    EnableSQLServerDebugging = "false"
+                    RemoteDebugEnabled = "false"
+                    RemoteDebugMachine = ""
+                    StartAction = "Project"
+                    StartArguments = ""
+                    StartPage = ""
+                    StartProgram = ""
+                    StartURL = ""
+                    StartWorkingDirectory = ""
+                    StartWithIE = "true"
+                />
+            </Settings>
+        </Build>
+        <OtherProjectSettings
+            CopyProjectDestinationFolder = ""
+            CopyProjectUncPath = ""
+            CopyProjectOption = "0"
+            ProjectView = "ProjectFiles"
+            ProjectTrust = "0"
+        />
+    </CSHARP>
+</VisualStudioProject>
+
